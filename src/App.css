@@ -1,0 +1,21 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    place-self: center center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5),
+        -5px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: blue;
+}
+
+button {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}

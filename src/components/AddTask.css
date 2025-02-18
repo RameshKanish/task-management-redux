@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(214, 203, 203);
+}
+
+.container2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    place-self: center center;
+    padding: 30px;
+    width: 800px;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container2 .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.container2 .input1,
+select {
+    height: 50px
+}
+
+.container2 .input2 {
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(187, 172, 172);
+}
+
+.inputs input {
+    border-radius: 5px;
+    border: 2px solid rgb(187, 172, 172);
+    padding: 10px;
+}
+
+.container2 button {
+    background-color: rgb(59, 59, 243);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+select {
+    border-radius: 5px;
+    border: 2px solid rgb(187, 172, 172);
+    color: grey;
+    padding: 5px;
+}
